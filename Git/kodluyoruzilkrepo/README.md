@@ -7,8 +7,21 @@ Bu repo [Kodluyoruz](https://www.kodluyoruz.org/) Front-End Eğitiminde oluştur
 
 ## Installation
 
-Öncelikle projeyi klonlayın.
-`git clone https://github.com/mustafabucak01/kodluyoruzilkrepo.git`
+Öncelikle projeyi klonlayın.  [Git İndir](https://git-scm.com/downloads)
+### 1. Yöntem: Tüm Repo'yu Klonlamak
+```
+git clone https://github.com/mustafabucak01/PatikaDevProjects.git
+```
+
+### 2. Yöntem: Sadece İlgili Projeyi Klonlamak
+
+Projeyi klonlayacağız klasörde boş bir alanda sağ tıklayıp "Git Bash Here" seçeneğini tıklayın. Sonra aşağıdaki adımları uygulayın.
+
+```
+git clone --filter=blob:none --sparse https://github.com/mustafabucak01/PatikaDevProjects
+cd PatikaDevProjects
+git sparse-checkout add Git/kodluyoruzilkrepo
+```
 
 ## Usage
 
